@@ -1,11 +1,13 @@
 {"nodes":[
 {"name":"<a href=''>Visualstats<br/><img src='http://syalala123.net63.net/logo_visualStats.png' /></a>","group":1},
 {"name":"Find us on","group":2},
-{"name":"<a target='' href='https://github.com/cruxi/VisualStats' id='github'>Github<br /><img src= 'http://ictk.ch/sites/default/files/6a00d8341c767353ef016762f7c808970b-800wi.png' /></a>","group":3},
-{"name":"<a target='' href='http://www.htw-berlin.de/', id='htw'>HTW - Berlin<br /><img src='http://www.htw-berlin.de/uploads/pics/HTW_Logo_rgb.jpg' /></a>","group":3},
-{"name":"<a target='' href='https://travis-ci.org/' id='travisci'>Travis - CI<br /><img src='http://static.domenkozar.com/slides/travis.png' /></a>","group":3},
+{"name":"<a target='' href='https://github.com/cruxi/VisualStats' id='github'>Github<br /><img src= 'http://playground.ebiene.de/wp-content/uploads/2012/01/github-64x64.png' /></a>","group":3},
+{"name":"<a target='' href='http://www.htw-berlin.de/', id='htw'>HTW - Berlin<br /><img src='http://129.187.85.21:8080/fbt/ueber_uns/adressen-der-mitgliedshochschulen/logos/htwberlin.jpg' /></a>","group":3},
+{"name":"<a target='' href='https://travis-ci.org/' id='travisci'>Travis - CI<br /><img src='https://twimg0-a.akamaihd.net/profile_images/1788260785/travis_normal.png' /></a>","group":3},
 {"name":"<a target='' href='http://localhost:3000/calendar' id='calendar'>Succeeded Jobs in Calendar view</a>","group":4},
-{"name":"<a target='' href='http://localhost:3000/multi', id='multilineD3'>Ruby vs Rubinius</a>","group":5}
+{"name":"<a target='' href='http://localhost:3000/multi', id='multilineD3'>Ruby vs Rubinius</a>","group":5},
+{"name":"<a target='' href='http://localhost:3000/table', id='table'>Connection between Language version and Environments</a>","group":6},
+{"name":"<a target='' href='http://localhost:3000/multi2', id='table'>Compare between language</a>","group":7}
 ],
 
 "links":[
@@ -14,5 +16,7 @@
 {"source":1,"target":3,"value":1},
 {"source":1,"target":4,"value":1},
 {"source":0,"target":5,"value":1},
-{"source":0,"target":6,"value":1}
+{"source":0,"target":6,"value":1},
+{"source":0,"target":7,"value":1},
+{"source":0,"target":8,"value":1}
 ]}

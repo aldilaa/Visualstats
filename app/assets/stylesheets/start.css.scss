@@ -57,12 +57,7 @@ circle.dot {
 }
 
 //MAP
-body
-{
-font-family:Arial;
-background:#fff;
-margin:0px;
-}
+
 div
 {
 margin-left:50px;
@@ -98,7 +93,7 @@ div.link {
 div .node p
 {
 margin-top:40px;
-color:#FF0000;
+color:#000000;
 }
 
 div .node a
@@ -115,4 +110,12 @@ margin-top:0px;
 #no_padding1
 {
 margin-top:0px;
+}
+//TABLE
+.background {
+  fill: #eee;
+}
+
+text.active {
+  fill: red;
 }

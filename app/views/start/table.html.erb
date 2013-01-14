@@ -1,14 +1,14 @@
-
+<br/>
 <p>Order: <select id="order">
   <option value="name">by Name</option>
   <option value="count">by Frequency</option>
-  <option value="group">by Cluster</option>
+  <option value="group">by Group</option>
 </select>
 
 <%= javascript_tag do %>
-var margin = {top: 80, right: 0, bottom: 10, left: 80},
-    width = 720,
-    height = 720;
+var margin = {top: 80, right: 10, bottom: 10, left: 200},
+    width = 520,
+    height = 520;
 
 var x = d3.scale.ordinal().rangeBands([0, width]),
     z = d3.scale.linear().domain([0, 4]).clamp(true),
@@ -17,13 +17,12 @@ var x = d3.scale.ordinal().rangeBands([0, width]),
 var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
-    .style("margin-left", -margin.left + "px")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.json("miserables.json", function(miserables) {
+d3.json("tableData.json", function(tableData) {
   var matrix = [],
-      nodes = miserables.nodes,
+      nodes = tableData.nodes,
       n = nodes.length;
 
   // Compute index per node.
@@ -34,7 +33,7 @@ d3.json("miserables.json", function(miserables) {
   });
 
   // Convert links to matrix; count character occurrences.
-  miserables.links.forEach(function(link) {
+  tableData.links.forEach(function(link) {
     matrix[link.source][link.target].z += link.value;
     matrix[link.target][link.source].z += link.value;
     matrix[link.source][link.source].z += link.value;
