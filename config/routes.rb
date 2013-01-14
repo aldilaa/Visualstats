@@ -42,9 +42,12 @@ VisualStats::Application.routes.draw do
 
   match '/calendar',    to: 'start#calendar'
   match '/multi',    to: 'start#multi'
-  match '/showReal',    to: 'start#showReal'
+  match '/showReel',    to: 'start#showReel'
   match '/multi2',    to: 'start#multi2'
   match '/travis_ci',    to: 'start#travis_ci'
+  match '/table',    to: 'start#table'
+  match '/mapData.json',    to: 'start#mapData'
+  match '/tableData.json',    to: 'start#tableData'
 
 
   # The priority is based upon order of creation:
@@ -104,8 +107,8 @@ VisualStats::Application.routes.draw do
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
 
-    match 'start' => 'start#index', :as => :welcomePage 
+    match 'start' => 'start#map', :as => :welcomePage 
 
-    root :to => 'start#index'
+    root :to => 'start#map'
 
 end

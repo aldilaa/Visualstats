@@ -7,7 +7,8 @@
 {"name":"<a target='' href='http://localhost:3000/calendar' id='calendar'>Succeeded Jobs in Calendar view</a>","group":4},
 {"name":"<a target='' href='http://localhost:3000/multi', id='multilineD3'>Ruby vs Rubinius</a>","group":5},
 {"name":"<a target='' href='http://localhost:3000/table', id='table'>Connection between Language version and Environments</a>","group":6},
-{"name":"<a target='' href='http://localhost:3000/multi2', id='table'>Compare between language</a>","group":7}
+{"name":"<a target='' href='http://localhost:3000/multi2', id='table'>Compare between languages</a>","group":7},
+{"name":"<a target='' href='http://localhost:3000/travis_ci', id='table'>Tree Map of Travis CI</a>","group":8}
 ],
 
 "links":[
@@ -18,5 +19,6 @@
 {"source":0,"target":5,"value":1},
 {"source":0,"target":6,"value":1},
 {"source":0,"target":7,"value":1},
-{"source":0,"target":8,"value":1}
+{"source":0,"target":8,"value":1},
+{"source":0,"target":9,"value":1}
 ]}
