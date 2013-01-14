@@ -1,0 +1,118 @@
+// Place all the styles related to the start controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body {
+font: 10px sans-serif;
+shape-rendering: crispEdges;
+}
+.day {
+fill: #fff;
+stroke: #ccc;
+}
+.month {
+fill: none;
+stroke: #000;
+stroke-width: 2px;
+}
+.RdYlGn .q0-11{fill:rgb(165,0,38)}
+.RdYlGn .q1-11{fill:rgb(215,48,39)}
+.RdYlGn .q2-11{fill:rgb(244,109,67)}
+.RdYlGn .q3-11{fill:rgb(253,174,97)}
+.RdYlGn .q4-11{fill:rgb(254,224,139)}
+.RdYlGn .q5-11{fill:rgb(255,255,191)}
+.RdYlGn .q6-11{fill:rgb(217,239,139)}
+.RdYlGn .q7-11{fill:rgb(166,217,106)}
+.RdYlGn .q8-11{fill:rgb(102,189,99)}
+.RdYlGn .q9-11{fill:rgb(26,152,80)}
+.RdYlGn .q10-11{fill:rgb(0,104,55)}
+
+circle.dot {
+  fill: #00868B;
+}
+
+.axis text {
+  font: 12px sans-serif;
+}
+
+
+.line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px;
+}           
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: 0.5;
+  shape-rendering: crispEdges;
+}
+
+.legend rect {
+  fill:white;
+  stroke:black;
+  opacity:0.8;
+}
+
+//MAP
+body
+{
+font-family:Arial;
+background:#fff;
+margin:0px;
+}
+div
+{
+margin-left:50px;
+margin-top:70px;
+float:left;
+}
+
+div.node {
+flaot:none;
+  width: 100px;
+  height: 100px;
+  margin: -25px 0 0 -50px;
+  margin-left:0px;
+  margin-top:20px;
+  position: absolute;
+  border-radius:50px;
+  color:#FF00FF;
+  cursor:move;
+  text-align:center;
+}
+
+div.link {
+  position: absolute;
+  border-bottom: solid #0000FF 1px;
+  height: 0;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+div .node p
+{
+margin-top:40px;
+color:#FF0000;
+}
+
+div .node a
+{
+color:yellow;
+text-decoration:none;
+}
+
+#no_padding
+{
+margin-top:0px;
+}
+
+#no_padding1
+{
+margin-top:0px;
+}

@@ -1,0 +1,33 @@
+// Place all the styles related to the builds controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+circle.dot {
+  fill: #00868B;
+}
+
+.axis text {
+  font: 12px sans-serif;
+}
+
+.line {
+  fill: none;
+  stroke: #00868B;
+  stroke-width: 0.5px;
+}            
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: 0.5;
+  shape-rendering: crispEdges;
+}
+
+.legend rect {
+  fill:white;
+  stroke:black;
+  opacity:0.8;
+}
+
+.bar {
+  fill: steelblue;
+}

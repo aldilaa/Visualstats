@@ -1,0 +1,18 @@
+{"nodes":[
+{"name":"<a href=''>Visualstats<br/><img src='http://syalala123.net63.net/logo_visualStats.png' /></a>","group":1},
+{"name":"Find us on","group":2},
+{"name":"<a target='' href='https://github.com/cruxi/VisualStats' id='github'>Github<br /><img src= 'http://ictk.ch/sites/default/files/6a00d8341c767353ef016762f7c808970b-800wi.png' /></a>","group":3},
+{"name":"<a target='' href='http://www.htw-berlin.de/', id='htw'>HTW - Berlin<br /><img src='http://www.htw-berlin.de/uploads/pics/HTW_Logo_rgb.jpg' /></a>","group":3},
+{"name":"<a target='' href='https://travis-ci.org/' id='travisci'>Travis - CI<br /><img src='http://static.domenkozar.com/slides/travis.png' /></a>","group":3},
+{"name":"<a target='' href='http://localhost:3000/calendar' id='calendar'>Succeeded Jobs in Calendar view</a>","group":4},
+{"name":"<a target='' href='http://localhost:3000/multi', id='multilineD3'>Ruby vs Rubinius</a>","group":5}
+],
+
+"links":[
+{"source":0,"target":1,"value":1},
+{"source":1,"target":2,"value":1},
+{"source":1,"target":3,"value":1},
+{"source":1,"target":4,"value":1},
+{"source":0,"target":5,"value":1},
+{"source":0,"target":6,"value":1}
+]}

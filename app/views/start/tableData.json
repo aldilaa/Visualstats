@@ -1,0 +1,30 @@
+{"nodes":[
+        {"name": "1.8.6", "group": 1},
+        {"name": "1.8.7", "group": 1},
+        {"name": "1.9.2", "group": 1},
+        {"name": "1.9.3", "group": 1},
+        {"name": "rubinius", "group": 1},
+        {"name": "ree", "group": 1},
+        {"name": "jruby", "group": 1},
+        {"name": "5.2", "group": 2},
+        {"name": "5.3", "group": 2},
+        {"name": "5.4", "group": 2},
+        {"name": "ree", "group": 3},
+        {"name": "jruby", "group": 3},
+        {"name": "1.9.2", "group": 1},
+        {"name": "1.9.2", "group": 1},
+],
+"links": [
+        {"source": 1, "target": 0, "value": 1},
+        {"source": 2, "target": 0, "value": 8},
+        {"source": 3, "target": 0, "value": 4},
+        {"source": 4, "target": 0, "value": 2},
+        {"source": 5, "target": 0, "value": 5},
+        {"source": 6, "target": 0, "value": 2},
+        {"source": 7, "target": 0, "value": 1},
+        {"source": 8, "target": 0, "value": 0},
+        {"source": 9, "target": 0, "value": 4},
+        {"source": 10, "target": 0, "value": 10}
+    ]
+}
+
